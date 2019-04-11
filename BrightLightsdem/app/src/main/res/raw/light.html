@@ -1,0 +1,2304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0050)https://freesound.org/search/?q=light+switch+sound -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <meta name="description" content="Freesound: collaborative database of creative-commons licensed sound for musicians and sound lovers. Have you freed your sound today?">
+        <meta name="keywords" content="free, sound">
+        <link rel="stylesheet" type="text/css" href="./LightSwitch_files/all.css">
+        <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/media/css/ie6.css?v=0303" /><![endif]-->
+        <link rel="icon" href="https://freesound.org/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://freesound.org/apple-touch-icon.png">
+	<link rel="manifest" href="https://freesound.org/site.webmanifest">
+	<link rel="mask-icon" href="https://freesound.org/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+        <title>Freesound - sound search</title>
+        <script type="text/javascript" async="" src="./LightSwitch_files/ga.js.download"></script><script src="./LightSwitch_files/jquery-1.5.2.min.js.download" type="text/javascript"></script>
+        <script src="./LightSwitch_files/jquery-ui-1.8.11.custom.min.js.download" type="text/javascript"></script>
+        <script src="./LightSwitch_files/jquery.cookie.js.download" type="text/javascript"></script>
+        <script src="./LightSwitch_files/swfobject.js.download" type="text/javascript"></script>
+        <script src="./LightSwitch_files/jquery.watermarkinput.js.download" type="text/javascript"></script>
+        <script type="text/javascript">
+            var isLoggedIn = false;
+            var loginUrl = "/home/login/?next=/search/";
+            $(document).ready(function() {
+                 $("#search input[name=q]").Watermark("search sounds");
+            });
+            function clearWatermark(){
+			   $.Watermark.HideAll()
+			   return true
+			}
+        </script>
+        <script src="./LightSwitch_files/freesound.js.download" type="text/javascript"></script>
+    	<script src="./LightSwitch_files/ajax_utils.js.download" type="text/javascript"></script>
+        <!-- next couple of lines are used for the HTML player -->
+        <link href="./LightSwitch_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./LightSwitch_files/player.css">
+        <script src="./LightSwitch_files/soundmanager2.js.download"></script>
+        <script type="text/javascript" src="./LightSwitch_files/player.js.download"></script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-86270-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        
+    </head>
+
+    <body id="" onload="" onunload="">
+
+        
+
+
+        <div id="header">
+            <div id="account_nav">
+                
+                    <a href="https://freesound.org/home/register/">Register</a>
+                    <a href="https://freesound.org/home/login/?next=/search/">Log In</a>
+                
+            <a href="https://freesound.org/home/upload/" id="upload_button"></a>
+        </div>
+
+        <a href="https://freesound.org/" id="logo"></a>
+
+        <div id="search">
+        <form method="get" onsubmit="return clearWatermark()" action="https://freesound.org/search/">
+            <fieldset>
+               <input type="text" name="q" value="" size="30" style="color: rgb(170, 170, 170);">
+               <input type="submit" value="" id="search_submit">
+            </fieldset>
+        </form>
+        </div>
+
+        <ul id="site_nav">
+            
+            <li class="active_tab"><a href="https://freesound.org/browse/" id="site_nav_sounds"><span class="site_nav_icon"></span>Sounds</a></li>
+            <li class=""><a href="https://freesound.org/forum/" id="site_nav_forums"><span class="site_nav_icon"></span>Forums</a></li>
+            <li class=""><a href="https://freesound.org/people/" id="site_nav_people"><span class="site_nav_icon"></span>People</a></li>
+            <li class=""><a href="https://freesound.org/help/faq/" id="site_nav_help"><span class="site_nav_icon"></span>Help</a></li>
+
+        </ul>
+    </div>
+
+        <div id="wrapper">
+        <div id="container">
+
+        
+
+        
+<div id="content_full"> <!-- START of Content area -->
+
+
+<form id="search_form" method="get" onsubmit="return addAdvancedSearchOptionsFilters()" action="https://freesound.org/search/">
+    <fieldset>
+
+       <input id="query_input" type="text" name="q" value="light switch sound" size="30">
+       <input id="filter_query" type="hidden" name="f" value="" size="30">
+       
+       <select name="s">
+            
+            <option value="score desc" selected="selected">Automatic by relevance</option>
+            
+            <option value="duration desc">Duration (long first)</option>
+            
+            <option value="duration asc">Duration (short first)</option>
+            
+            <option value="created desc">Date added (newest first)</option>
+            
+            <option value="created asc">Date added (oldest first)</option>
+            
+            <option value="num_downloads desc">Downloads (most first)</option>
+            
+            <option value="num_downloads asc">Downloads (least first)</option>
+            
+            <option value="avg_rating desc">Rating (highest first)</option>
+            
+            <option value="avg_rating asc">Rating (lowest first)</option>
+            
+       </select>
+
+       <input type="submit" value="search" id="search_submit">
+
+       <script type="text/javascript">
+
+    function showAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(1);
+        $("#enableShowButton").hide();
+        $("#advanced_search_options").show('blind', {}, 500, function() {});
+
+    }
+
+    function hideAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(0);
+        $("#advanced_search_options").hide('blind', {}, 500, function() {});
+        $("#enableShowButton").show();
+    }
+
+    function set_hidden_grouping_value(){
+        if ($("#grouping_geotagged").is(':checked')){
+            $("#grouping_geotagged_hidden").val("1")
+        }else{
+            $("#grouping_geotagged_hidden").val("")
+        }
+    }
+
+</script>
+
+
+<div id="advanced_search_options" class="advanced_search_options" style="display:none">
+<input id="advanced_search_hidden" type="hidden" name="advanced" value="0">
+
+<div style="margin-top:8px;"></div>Search in:&nbsp;
+<label><input type="checkbox" name="a_tag" value="1"> Tags</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_filename" value="1"> File names</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_description" value="1"> Descriptions</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_packname" value="1"> Pack names</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_soundid" value="1"> Sound Ids</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_username" value="1"> User names</label>
+<span class="advanced_search_indication">(if none is selected, all will be used)</span>
+<br>
+
+Duration between <input class="inputtext" id="filter_duration_min" value="0" size="6"> <label for="filter_duration_min">(min)</label>
+and <input class="inputtext" id="filter_duration_max" value="*" size="6"> <label for="filter_duration_max">(max)</label> seconds<br>
+<input id="filter_is_geotagged" type="checkbox" value="1"> <label for="filter_is_geotagged">Only geotagged sounds</label><br>
+<input id="grouping_geotagged" type="checkbox" onchange="set_hidden_grouping_value()" checked=""> <label for="grouping_geotagged">Group sounds by pack</label>
+<input id="grouping_geotagged_hidden" type="hidden" name="g" value="1">
+
+<br>
+<span class="advanced_search_options_button"><a style="cursor:pointer;" onclick="hideAdvancedSearchOptions();">Hide advanced search options</a></span>
+</div>
+
+<span id="enableShowButton" class="advanced_search_options_button">
+    <div style="margin-top:4px;"></div>
+    <a style="cursor:pointer;" onclick="showAdvancedSearchOptions();">Show advanced search options</a>
+</span>
+
+
+        <br>
+
+    </fieldset>
+</form>
+
+
+<p id="filter_query_display">
+
+
+
+</p>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        // Fill advanced search fields that were passen on the f parameter
+        // Duration
+
+        if (getFilterValue("duration","min") == "")
+            $("#filter_duration_min").val("0");
+        else
+            $("#filter_duration_min").val(getFilterValue("duration","min"));
+
+        if (getFilterValue("duration","max") == "")
+            $("#filter_duration_max").val("*");
+        else
+            $("#filter_duration_max").val(getFilterValue("duration","max"));
+
+        // Geotagged
+        if (getFilterValue("is_geotagged")==1)
+               $("#filter_is_geotagged").attr('checked','checked')
+
+        // Extract terms from the query search box and highlight any of their occurrences in the descriptions
+        terms = document.getElementById("query_input").value.split(" ");
+
+        for(var i=0;i<terms.length;i++)
+        {
+        	term = terms[i];
+        	re = RegExp(term,"i"); // i for case-insensative
+
+        	descriptions = document.getElementsByClassName("description");
+        	for (var j=0;j<descriptions.length;j++)
+        	{
+        		descriptions[j].innerHTML = descriptions[j].innerHTML.replace(re,"<b>"+term+"</b>");
+        	}
+        }
+
+    });
+
+    function addAdvancedSearchOptionsFilters()
+    {
+
+        // Remove existing previously existing advanced options filters (will be replaced by current ones)
+        existing_duration_filter = "duration:[" + getFilterValue("duration","min") + " TO " + getFilterValue("duration","max") + "]"
+        removeFilter(existing_duration_filter)
+        removeFilter("is_geotagged:1")
+
+        // if advanced options is activated add all updated filters
+        if ($("#advanced_search_hidden").val() == 1)
+        {
+
+            // Create and add new filter with all the advanced options
+            filter = ""
+
+            // Duration filter
+            duration_min = parseFloat($("#filter_duration_min").val())
+            duration_max = parseFloat($("#filter_duration_max").val())
+
+            if ((duration_min >= 0.0) || (duration_max >= 0.0))
+            {
+                duration_filter = ""
+
+                if ((duration_min >= 0.0) && (duration_max >= 0.0)) // Both min and max have been set
+                {
+                    if (duration_max < duration_min)
+                    {
+                        // interchange values if duration_min > duration_max
+                        duration_aux = duration_min
+                        duration_min = duration_max
+                        duration_max = duration_aux
+                    }
+
+                    duration_filter = "duration:[" + duration_min + " TO " + duration_max + "]"
+
+                }
+                else if (duration_min >= 0.0) // Only minimum has been set
+                {
+                    duration_filter = "duration:[" + duration_min + " TO *]"
+                }
+                else if (duration_max >= 0.0) // Only maximum has been set
+                {
+                    duration_filter = "duration:[* TO " + duration_max + "]"
+                }
+
+                filter = filter + duration_filter
+            }
+
+            // Is geotagged filter
+            if ($("#filter_is_geotagged").attr('checked')){
+                if (filter != "")
+                    filter = filter + " "
+                filter = filter + "is_geotagged:1"
+            }
+
+               // Update general filter with the advanced options filter
+            value = $("#filter_query").val();
+            if (value != "")
+                $("#filter_query").val(value + " " + filter);
+            else
+                $("#filter_query").val(filter);
+
+        }
+
+        return true
+    }
+
+    // Return the value of a filter given its name
+    // If filter has a range, optional "range" parameter must be set to "min or "max"
+    function getFilterValue(name, range)
+    {
+        if (!range) { range = "min"};
+
+        var value = $("#filter_query").val();
+        position_name = value.search(name)
+        position_value = value.search(name) + (name + ":").length
+        if (value.search((name + ":")) != -1)
+        {
+            if (value[position_value] == "[") // Is range (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("]") + 2
+
+                range_string = value.substring(position_value + 1, position_end -1) // Without [ ]
+                parts = range_string.split(" ")
+                if (range == "min")
+                    return parts[0]
+                else if (range == "max")
+                    return parts[2]
+            }
+            else if (value[position_value] == "\"") // Is string (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("\"") + 2
+                return value.substring(position_value, position_end)
+
+            }
+            else // Is number or normal text (without spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                if (aux_value.search(" ") != -1)
+                    position_end = position_value + aux_value.search(" ") + 1
+                else
+                    position_end = value.length
+
+                return value.substring(position_value, position_end)
+            }
+        }
+        else
+        {
+            return ""
+        }
+    }
+
+    // Remove a filter given the full tag ex: type:aiff, pack:"pack name"
+    function removeFilter(tag)
+    {
+        var value = $("#filter_query").val();
+        var cleaned = $.trim(value.replace(tag + " ", "").replace(tag, ""));
+        $("#filter_query").val(cleaned);
+    }
+
+</script>
+
+
+    
+    <div id="sidebar" style="float:right">
+        
+            <h3>licenses</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20license:%22Attribution%22">Attribution</a> (116)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20license:%22Attribution+Noncommercial%22">Attribution Noncommercial</a> (24)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20license:%22Creative+Commons+0%22">Creative Commons 0</a> (77)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20license:%22Sampling%2B%22">Sampling+</a> (3)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>tags</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%221-shot%22">1-shot</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22acoustic%22">acoustic</a></span> <span class="facet_item" style="font-size:1.69411764706em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22button%22">button</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22car%22">car</a></span> <span class="facet_item" style="font-size:1.84705882353em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22click%22">click</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22drum%22">drum</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22drums%22">drums</a></span> <span class="facet_item" style="font-size:1.46470588235em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22experimental%22">experimental</a></span> <span class="facet_item" style="font-size:0.776470588235em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22flick%22">flick</a></span> <span class="facet_item" style="font-size:0.929411764706em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22foley%22">foley</a></span> <span class="facet_item" style="font-size:1.46470588235em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22hit%22">hit</a></span> <span class="facet_item" style="font-size:0.776470588235em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22house%22">house</a></span> <span class="facet_item" style="font-size:1.77058823529em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22household%22">household</a></span> <span class="facet_item" style="font-size:1.23529411765em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22lamp%22">lamp</a></span> <span class="facet_item" style="font-size:1.92352941176em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22light%22">light</a></span> <span class="facet_item" style="font-size:1.15882352941em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22light-switch%22">light-switch</a></span> <span class="facet_item" style="font-size:1.54117647059em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22off%22">off</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22one-shot%22">one-shot</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22perc%22">perc</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22percs%22">percs</a></span> <span class="facet_item" style="font-size:1.38823529412em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22percussion%22">percussion</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22percussive%22">percussive</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22recording%22">recording</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22sample%22">sample</a></span> <span class="facet_item" style="font-size:1.61764705882em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22sound%22">sound</a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22switch%22">switch</a></span> <span class="facet_item" style="font-size:1.08235294118em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22switches%22">switches</a></span> <span class="facet_item" style="font-size:1.00588235294em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22switching%22">switching</a></span> <span class="facet_item" style="font-size:1.31176470588em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22thalamus-lab%22">thalamus-lab</a></span> <span class="facet_item" style="font-size:0.852941176471em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20tag:%22toggle%22">toggle</a></span> 
+</p>
+
+
+        
+
+        
+            <h3>type</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20type:%22aiff%22">aiff</a> (1)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20type:%22flac%22">flac</a> (7)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20type:%22m4a%22">m4a</a> (2)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20type:%22mp3%22">mp3</a> (29)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20type:%22ogg%22">ogg</a> (1)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20type:%22wav%22">wav</a> (180)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>samplerate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20samplerate:%2232000%22">32000</a> (3)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20samplerate:%2244100%22">44100</a> (139)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20samplerate:%2248000%22">48000</a> (56)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20samplerate:%2288200%22">88200</a> (2)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20samplerate:%2296000%22">96000</a> (18)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>bitdepth</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitdepth:%2216%22">16</a> (82)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitdepth:%2224%22">24</a> (87)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitdepth:%2232%22">32</a> (16)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitdepth:%228%22">8</a> (2)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>bitrate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitrate:%221378%22">1378</a> (37)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitrate:%221411%22">1411</a> (13)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitrate:%222067%22">2067</a> (36)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitrate:%222250%22">2250</a> (10)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20bitrate:%223000%22">3000</a> (9)</li>
+</ul>
+
+
+
+        
+
+
+        
+            <h3>channels</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20channels:%221%22">1</a> (49)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20channels:%222%22">2</a> (170)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20channels:%226%22">6</a> (1)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>packs</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%221216_Mechanical%22">Mechanical</a> (3)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2212226_room-tone%22">room-tone</a> (4)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2213774_Switches%22">Switches</a> (8)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2214254_Flickering+Fluorescent+Lights%22">Flickering Fluorescent Lights</a> (2)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2214597_Light+sounds%22">Light sounds</a> (2)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2215366_Household+Percussion%22">Household Percussion</a> (34)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2219783_Switches+of+Light%22">Switches of Light</a> (7)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2221462_Switch+Sounds%22">Switch Sounds</a> (6)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%2223357_Light%2C+Pulley+Switch%22">Light, Pulley Switch</a> (3)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20grouping_pack:%225797_The+101+SFX+Collection%22">The 101 SFX Collection</a> (14)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>users</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:0.916666666667em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22alienxxx%22">alienxxx</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22amholma%22">amholma</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22caitlin_100%22">caitlin_100</a></span> <span class="facet_item" style="font-size:1.78333333333em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22cgeffex%22">cgeffex</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22christutorials%22">christutorials</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22cjfilmmaker%22">cjfilmmaker</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22d+w%22">d w</a></span> <span class="facet_item" style="font-size:1.13333333333em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22dcelliott%22">dcelliott</a></span> <span class="facet_item" style="font-size:0.916666666667em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22freqman%22">freqman</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22gamedevc%22">gamedevc</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22giddster%22">giddster</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22ianstargem%22">ianstargem</a></span> <span class="facet_item" style="font-size:0.916666666667em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22inspectorj%22">inspectorj</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22joedeshon%22">joedeshon</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22kb7clx%22">kb7clx</a></span> <span class="facet_item" style="font-size:1.13333333333em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22klankbeeld%22">klankbeeld</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22lonemonk%22">lonemonk</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22michael_kur95%22">michael_kur95</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22mihirfreesound%22">mihirfreesound</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22mmaruska%22">mmaruska</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22nicstage%22">nicstage</a></span> <span class="facet_item" style="font-size:0.916666666667em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22qubodup%22">qubodup</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22rutgermuller%22">rutgermuller</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22samuelgremaud%22">samuelgremaud</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22smokenweewalt%22">smokenweewalt</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22supersnd%22">supersnd</a></span> <span class="facet_item" style="font-size:1.35em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22tbrook%22">tbrook</a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22thalamus_lab%22">thalamus_lab</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22vince2323%22">vince2323</a></span> <span class="facet_item" style="font-size:1.56666666667em"><a href="https://freesound.org/search/?g=1&amp;q=light%20switch%20sound&amp;f=%20username:%22vkproduktion%22">vkproduktion</a></span> 
+</p>
+
+
+        
+
+    </div>
+
+        
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=9#sound" title="Last Page">9</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 220 sounds
+            
+        </p></ul>
+
+
+            </div>
+
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="414438">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/414/414438_5121236-lq.mp3" title="mp3 file">Light, Pulley Switch, On, C.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/414/414438_5121236-lq.ogg" title="ogg file">Light, Pulley Switch, On, C.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/414/414438_5121236_wave_M.png" title="waveform file">Light, Pulley Switch, On, C.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/414/414438_5121236_spec_M.jpg" title="spectrogram file">Light, Pulley Switch, On, C.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">738.753</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/414/414438_5121236_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 107.208%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/InspectorJ/sounds/414438/" title="Light, Pulley Switch, On, C.wav">Light, Pulley Switch, On...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A <b>sound</b> of a <b>light</b> being <b>switch</b>ed on via a pulley string. I recorded this for a university short film ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/String/">String</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/On/">On</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Switch/">Switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Light/">Light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Pulley/">Pulley</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/string/">string</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/pulley/">pulley</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_414438" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/InspectorJ/">InspectorJ</a><br>
+        <span class="date">December 31st, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/InspectorJ/sounds/414438/downloaders/">666 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/InspectorJ/sounds/414438/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/InspectorJ/sounds/414438/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/InspectorJ/packs/23357/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Light, Pulley Switch">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./LightSwitch_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=light%20switch%20sound&amp;f=grouping_pack:%2223357_Light,%20Pulley%20Switch%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">2 more results</a> in the same pack "Light, Pulley Switch"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="445957">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/445/445957_3212685-lq.mp3" title="mp3 file">Light Switch On/Off Sound - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/445/445957_3212685-lq.ogg" title="ogg file">Light Switch On/Off Sound - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/445/445957_3212685_wave_M.png" title="waveform file">Light Switch On/Off Sound - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/445/445957_3212685_spec_M.jpg" title="spectrogram file">Light Switch On/Off Sound - spectrogram</a>
+<span class="duration" title="duration in seconds">752.812</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/445/445957_3212685_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Sudd/sounds/445957/" title="Light Switch On/Off Sound">Light Switch On/Off Sound</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Recorded this <b>sound</b> for a game I'm making. This sound is free to use, leave a comment and let me ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/flicked/">flicked</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switches/">switches</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/flipped/">flipped</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/flip/">flip</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/turned/">turned</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lightswitch/">lightswitch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sound/">sound</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_445957" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Sudd/">Sudd</a><br>
+        <span class="date">November 3rd, 2018</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Sudd/sounds/445957/downloaders/">10 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Sudd/sounds/445957/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Sudd/sounds/445957/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="440498">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/440/440498_4629347-lq.mp3" title="mp3 file">Light Switch Turn On Sound - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/440/440498_4629347-lq.ogg" title="ogg file">Light Switch Turn On Sound - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/440/440498_4629347_wave_M.png" title="waveform file">Light Switch Turn On Sound - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/440/440498_4629347_spec_M.jpg" title="spectrogram file">Light Switch Turn On Sound - spectrogram</a>
+<span class="duration" title="duration in seconds">427.868</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/440/440498_4629347_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/ChrisTutorials/sounds/440498/" title="Light Switch Turn On Sound">Light Switch Turn On Sound</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Turn on <b>sound</b> for a <b>light</b> <b>switch</b> on the wall</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_440498" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/ChrisTutorials/">ChrisTutorials</a><br>
+        <span class="date">September 16th, 2018</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/ChrisTutorials/sounds/440498/downloaders/">141 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/ChrisTutorials/sounds/440498/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/ChrisTutorials/sounds/440498/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/ChrisTutorials/packs/25009/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Wall Light Switch - On and Off Click Sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./LightSwitch_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=light%20switch%20sound&amp;f=grouping_pack:%2225009_Wall%20Light%20Switch%20-%20On%20and%20Off%20Click%20Sounds%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">1 more result</a> in the same pack "Wall Light Switch - On and Off C..."</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="237944">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/237/237944_3877322-lq.mp3" title="mp3 file">Light switch off - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/237/237944_3877322-lq.ogg" title="ogg file">Light switch off - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/237/237944_3877322_wave_M.png" title="waveform file">Light switch off - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/237/237944_3877322_spec_M.jpg" title="spectrogram file">Light switch off - spectrogram</a>
+<span class="duration" title="duration in seconds">150.748</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/237/237944_3877322_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/supersnd/sounds/237944/" title="Light switch off">Light switch off</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:86%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>sound</b> of a <b>light</b> <b>switch</b> turning off. recorded with an iPhone 4s</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light-switch/">light-switch</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_237944" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/supersnd/">supersnd</a><br>
+        <span class="date">May 16th, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/supersnd/sounds/237944/downloaders/">2298 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/supersnd/sounds/237944/#comments">5 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/supersnd/sounds/237944/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/supersnd/packs/14597/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Light sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./LightSwitch_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=light%20switch%20sound&amp;f=grouping_pack:%2214597_Light%20sounds%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">1 more result</a> in the same pack "Light sounds"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="201663">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/201/201663_3579566-lq.mp3" title="mp3 file">Light Switches - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/201/201663_3579566-lq.ogg" title="ogg file">Light Switches - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/201/201663_3579566_wave_M.png" title="waveform file">Light Switches - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/201/201663_3579566_spec_M.jpg" title="spectrogram file">Light Switches - spectrogram</a>
+<span class="duration" title="duration in seconds">1523.97</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/201/201663_3579566_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/ashleyxxpiano/sounds/201663/" title="Light Switches">Light Switches</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:81%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">The <b>sound</b> of a <b>light</b> <b>switch</b> click.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/ashley/">ashley</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/power/">power</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sfx/">sfx</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sounds/">sounds</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/everyday/">everyday</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switches/">switches</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/powerline/">powerline</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/noncommercial/">noncommercial</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/brastad/">brastad</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/attribution/">attribution</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/line/">line</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_201663" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/ashleyxxpiano/">ashleyxxpiano</a><br>
+        <span class="date">September 28th, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/ashleyxxpiano/sounds/201663/downloaders/">2574 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/ashleyxxpiano/sounds/201663/#comments">5 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/ashleyxxpiano/sounds/201663/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/ashleyxxpiano/packs/12837/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Everyday Sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="334989">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/334/334989_5863857-lq.mp3" title="mp3 file">Light switch - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/334/334989_5863857-lq.ogg" title="ogg file">Light switch - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/334/334989_5863857_wave_M.png" title="waveform file">Light switch - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/334/334989_5863857_spec_M.jpg" title="spectrogram file">Light switch - spectrogram</a>
+<span class="duration" title="duration in seconds">9351.84</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/334/334989_5863857_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:09</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/paulocorona/sounds/334989/" title="Light switch">Light switch</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:36%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>light</b> <b>switch</b> on and off</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/office/">office</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_334989" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/paulocorona/">paulocorona</a><br>
+        <span class="date">February 2nd, 2016</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/paulocorona/sounds/334989/downloaders/">132 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/paulocorona/sounds/334989/#comments">2 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/paulocorona/sounds/334989/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/paulocorona/packs/18933/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Office Sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="205082">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/205/205082_2437207-lq.mp3" title="mp3 file">Light Switch.WAV - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/205/205082_2437207-lq.ogg" title="ogg file">Light Switch.WAV - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/205/205082_2437207_wave_M.png" title="waveform file">Light Switch.WAV - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/205/205082_2437207_spec_M.jpg" title="spectrogram file">Light Switch.WAV - spectrogram</a>
+<span class="duration" title="duration in seconds">13369.3</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/205/205082_2437207_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:13</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/jadend2/sounds/205082/" title="Light Switch.WAV">Light Switch.WAV</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>sound</b> of a <b>light</b> <b>switch</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/household/">household</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_205082" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/jadend2/">jadend2</a><br>
+        <span class="date">November 3rd, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/jadend2/sounds/205082/downloaders/">459 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/jadend2/sounds/205082/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/jadend2/sounds/205082/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/jadend2/packs/13098/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Household Sounds ">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="386423">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/386/386423_6976200-lq.mp3" title="mp3 file">Chain_switch_1.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/386/386423_6976200-lq.ogg" title="ogg file">Chain_switch_1.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/386/386423_6976200_wave_M.png" title="waveform file">Chain_switch_1.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/386/386423_6976200_spec_M.jpg" title="spectrogram file">Chain_switch_1.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">21910.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/386/386423_6976200_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:21</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/DCElliott/sounds/386423/" title="Chain_switch_1.wav">Chain_switch_1.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>light</b> chain <b>switch</b> on light Mic: Zoom SSH-6 Recorder: Zoom H6 Format: Wav 48kHz, 16bit, mono</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/chainswitch/">chainswitch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/S4F17/">S4F17</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/pullchain/">pullchain</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lamp/">lamp</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/chain/">chain</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_386423" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/DCElliott/">DCElliott</a><br>
+        <span class="date">March 29th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/DCElliott/sounds/386423/downloaders/">23 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/DCElliott/sounds/386423/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/DCElliott/sounds/386423/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/DCElliott/packs/21462/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Switch Sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./LightSwitch_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=light%20switch%20sound&amp;f=grouping_pack:%2221462_Switch%20Sounds%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">5 more results</a> in the same pack "Switch Sounds"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="265031">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/265/265031_4101863-lq.mp3" title="mp3 file">light switch.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/265/265031_4101863-lq.ogg" title="ogg file">light switch.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/265/265031_4101863_wave_M.png" title="waveform file">light switch.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/265/265031_4101863_spec_M.jpg" title="spectrogram file">light switch.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">12027.9</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/265/265031_4101863_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:12</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/sethlind/sounds/265031/" title="light switch.wav">light switch.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Turning a wall <b>light</b> <b>switch</b> on and off repeatedly</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/turn-on/">turn-on</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light-switch/">light-switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switched/">switched</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/turn-off/">turn-off</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/button/">button</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lamp/">lamp</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switching/">switching</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switches/">switches</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/push/">push</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/toggle/">toggle</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/press/">press</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/flip/">flip</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_265031" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/sethlind/">sethlind</a><br>
+        <span class="date">February 25th, 2015</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/sethlind/sounds/265031/downloaders/">153 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/sethlind/sounds/265031/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/sethlind/sounds/265031/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/sethlind/packs/16330/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: household sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="460169">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/460/460169_1738686-lq.mp3" title="mp3 file">Light switch being turned on and off - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/460/460169_1738686-lq.ogg" title="ogg file">Light switch being turned on and off - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/460/460169_1738686_wave_M.png" title="waveform file">Light switch being turned on and off - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/460/460169_1738686_spec_M.jpg" title="spectrogram file">Light switch being turned on and off - spectrogram</a>
+<span class="duration" title="duration in seconds">5018.64</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/460/460169_1738686_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:05</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/giddster/sounds/460169/" title="Light switch being turned on and off">Light switch being turne...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A simple <b>light</b> <b>switch</b> being turned on and off. Recorded with a Zoom H1.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switches/">switches</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/toggle/">toggle</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/button/">button</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Light/">Light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_460169" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/giddster/">giddster</a><br>
+        <span class="date">February 20th, 2019</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/giddster/sounds/460169/downloaders/">5 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/giddster/sounds/460169/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/giddster/sounds/460169/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/giddster/packs/20271/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Office sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./LightSwitch_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=light%20switch%20sound&amp;f=grouping_pack:%2220271_Office%20sounds%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">1 more result</a> in the same pack "Office sounds"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="184581">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/184/184581_2812229-lq.mp3" title="mp3 file">Turning light on and off - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/184/184581_2812229-lq.ogg" title="ogg file">Turning light on and off - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/184/184581_2812229_wave_M.png" title="waveform file">Turning light on and off - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/184/184581_2812229_spec_M.jpg" title="spectrogram file">Turning light on and off - spectrogram</a>
+<span class="duration" title="duration in seconds">1490.05</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/184/184581_2812229_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/magnus589/sounds/184581/" title="Turning light on and off">Turning light on and off</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Turning the <b>light</b> on and off by an old light <b>switch</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/stereo/">stereo</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/old/">old</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switching/">switching</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_184581" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/magnus589/">magnus589</a><br>
+        <span class="date">April 11th, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/magnus589/sounds/184581/downloaders/">623 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/magnus589/sounds/184581/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/magnus589/sounds/184581/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/magnus589/packs/11640/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Daily Sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="232811">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/232/232811_3763935-lq.mp3" title="mp3 file">light switgh.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/232/232811_3763935-lq.ogg" title="ogg file">light switgh.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/232/232811_3763935_wave_M.png" title="waveform file">light switgh.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/232/232811_3763935_spec_M.jpg" title="spectrogram file">light switgh.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">816.576</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/232/232811_3763935_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/mariiao2/sounds/232811/" title="light switgh.wav">light switgh.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>sound</b> resulting from turning on the <b>light</b> <b>switch</b> in an empty room. Recorded with a tape recorder in the translation ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/room/">room</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/UPF-CS14/">UPF-CS14</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/clack/">clack</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/campus-upf/">campus-upf</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_232811" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/mariiao2/">mariiao2</a><br>
+        <span class="date">April 9th, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/mariiao2/sounds/232811/downloaders/">136 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/mariiao2/sounds/232811/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/mariiao2/sounds/232811/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/mariiao2/packs/14298/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: sound pack">
+            </a>
+            
+            
+            
+            <a class="geotag" href="https://freesound.org/people/mariiao2/sounds/232811/geotag/">
+                <img src="./LightSwitch_files/geotag.png" width="16" height="16" alt="Geotagged" title="This sound has a geotag">
+            </a>
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="254286">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/254/254286_4062622-lq.mp3" title="mp3 file">Mechanical Switch - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/254/254286_4062622-lq.ogg" title="ogg file">Mechanical Switch - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/254/254286_4062622_wave_M.png" title="waveform file">Mechanical Switch - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/254/254286_4062622_spec_M.jpg" title="spectrogram file">Mechanical Switch - spectrogram</a>
+<span class="duration" title="duration in seconds">4.45833</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/254/254286_4062622_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Jagadamba/sounds/254286/" title="Mechanical Switch">Mechanical Switch</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:86%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Mechanical <b>switch</b> Recorded and processed with the following equipment: Interfaces: focusrite scarlett 2i2 Alesis firewire io14 Microphones: Rode NT1000 SE ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/flick/">flick</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/clip/">clip</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switched/">switched</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/turned/">turned</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/pop/">pop</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switches/">switches</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/toggle/">toggle</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/electricity/">electricity</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/factory/">factory</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lights/">lights</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lamp/">lamp</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/electrical/">electrical</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/snap/">snap</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switching/">switching</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/electric/">electric</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/press/">press</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light-switch/">light-switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/button/">button</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lightswitch/">lightswitch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/flip/">flip</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/mechanical/">mechanical</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/push/">push</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_254286" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Jagadamba/">Jagadamba</a><br>
+        <span class="date">November 10th, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Jagadamba/sounds/254286/downloaders/">982 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Jagadamba/sounds/254286/#comments">3 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Jagadamba/sounds/254286/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Jagadamba/packs/15599/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Mechanical Sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="254148">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/254/254148_1026880-lq.mp3" title="mp3 file">Turning out the lights in the room - lightswitch.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/254/254148_1026880-lq.ogg" title="ogg file">Turning out the lights in the room - lightswitch.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/254/254148_1026880_wave_M.png" title="waveform file">Turning out the lights in the room - lightswitch.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/254/254148_1026880_spec_M.jpg" title="spectrogram file">Turning out the lights in the room - lightswitch.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">14485.8</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/254/254148_1026880_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:14</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/tom_woysky/sounds/254148/" title="Turning out the lights in the room - lightswitch.wav">Turning out the lights i...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:84%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Turning out the <b>light</b>s in the room. Enjoy!</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/flick/">flick</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/off/">off</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/room/">room</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/turn/">turn</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/button/">button</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lightswitch/">lightswitch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switches/">switches</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/lights/">lights</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switching/">switching</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_254148" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/tom_woysky/">tom_woysky</a><br>
+        <span class="date">November 9th, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/tom_woysky/sounds/254148/downloaders/">813 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/tom_woysky/sounds/254148/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            
+            <a class="pack" href="https://freesound.org/people/tom_woysky/packs/14284/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: World of sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="428388">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/428/428388_7890063-lq.mp3" title="mp3 file">25-interruptor.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/428/428388_7890063-lq.ogg" title="ogg file">25-interruptor.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/428/428388_7890063_wave_M.png" title="waveform file">25-interruptor.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/428/428388_7890063_spec_M.jpg" title="spectrogram file">25-interruptor.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">1961.32</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/428/428388_7890063_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/sofi.om/sounds/428388/" title="25-interruptor.wav">25-interruptor.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Someone using a <b>switch</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/home/">home</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/switch/">switch</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/light/">light</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_428388" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/sofi.om/">sofi.om</a><br>
+        <span class="date">May 15th, 2018</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/sofi.om/sounds/428388/downloaders/">0 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/sofi.om/sounds/428388/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/sofi.om/sounds/428388/similar/">
+                <img src="./LightSwitch_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/sofi.om/packs/24316/">
+                <img src="./LightSwitch_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Final sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./LightSwitch_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="https://freesound.org/search/?q=light+switch+sound&amp;page=9#sound" title="Last Page">9</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 220 sounds
+            
+        </p></ul>
+
+
+            </div>
+        
+
+
+    
+
+
+
+</div> <!-- END of Content area -->
+
+<br class="clear">
+
+
+
+        </div>
+        </div>
+
+    <div id="footer_wrapper">
+        <div id="footer">
+            <div id="cookie-bar">
+                <div style="float:left">
+                    <p>
+                        We use cookies to ensure you get the best experience on our website. By browsing our site you agree to our use of cookies.
+                        <br>
+                        For more information check out our <a href="https://freesound.org/help/cookies_policy">cookies policy</a>.
+                    </p>
+                </div>
+                <div style="float:right; margin-top:10px;margin-right:10px;">
+                    <button id="cookie-accept">Ok</button>
+                </div>
+                <br class="clear">
+
+            </div>
+            <div id="footer_links">
+                <a href="https://freesound.org/help/developers/">Developers</a>
+                <a href="http://blog.freesound.org/">Blog</a>
+                <a href="https://freesound.org/help/about/">About</a>
+                
+                <a href="https://freesound.org/help/tos_web/">Terms of use</a>
+            </div>
+            <div id="footer_credits">
+                Design by <a href="http://www.pixelshell.com/">Pixelshell</a>. Code by <a href="http://www.mtg.upf.edu/">MTG (UPF)</a>. Some Rights Reserved.
+            </div>
+            </div>
+        </div>
+
+        <div id="fsmodal" class="modal"></div>
+    
+
+
+</body></html>

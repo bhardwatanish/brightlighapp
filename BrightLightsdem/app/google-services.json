@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "728034999160",
+    "firebase_url": "https://brightlights-d464b.firebaseio.com",
+    "project_id": "brightlights-d464b",
+    "storage_bucket": "brightlights-d464b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728034999160:android:b1f593a0edd414e3",
+        "android_client_info": {
+          "package_name": "group_one.brightlights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728034999160-c104pejm0u7ulv4flb6b86a5fu2m37fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "group_one.brightlights",
+            "certificate_hash": "e6ae6da0d84a1d190b1834a0465641a6f90a7ea5"
+          }
+        },
+        {
+          "client_id": "728034999160-a8aljh758h1f46o44df2cp0uuejfc24f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "group_one.brightlights",
+            "certificate_hash": "aed3a791708e1366146a2929c2295b011d0fe75c"
+          }
+        },
+        {
+          "client_id": "728034999160-behlus19neib9e5h6qjc2ipbfukj4ru3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5QhsEOrdqYTcJhcOMjGb2jxJrX0FvYSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728034999160-behlus19neib9e5h6qjc2ipbfukj4ru3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
